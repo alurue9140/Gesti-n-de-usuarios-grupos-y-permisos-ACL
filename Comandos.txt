@@ -7,12 +7,3 @@ administrador@alcoy:/home$ sudo useradd -d /home/usu_sininformacion -m -s /bin/b
 administrador@alcoy:/home$ sudo groupadd gru_sininformacion
 administrador@alcoy:/home$ sudo groupadd gru_desarrollo
 administrador@alcoy:/home$ sudo groupadd gru_explotacion
-administrador@alcoy:/home$ sudo groupadd gru_proye_r
-administrador@alcoy:/home$ sudo groupadd gru_proye_w
-administrador@alcoy:/home$ sudo groupadd gru_proye_x
-administrador@alcoy:/home$ sudo groupadd gru_prue_r
-administrador@alcoy:/home$ sudo groupadd gru_prue_w
-administrador@alcoy:/home$ sudo groupadd gru_prue_x
-administrador@alcoy:/home$ sudo groupadd gru_src_r
-administrador@alcoy:/home$ sudo groupadd gru_src_w
-administrador@alcoy:/home$ sudo groupadd gru_src_x
