@@ -1,0 +1,18 @@
+#Comandos utilizados
+#Crear usuarios
+administrador@alcoy:/home$ sudo useradd -d /home/usu_explotacion -m -s /bin/bash usu_explotacion
+administrador@alcoy:/home$ sudo useradd -d /home/usu_desarrollo -m -s /bin/bash usu_desarrollo
+administrador@alcoy:/home$ sudo useradd -d /home/usu_sininformacion -m -s /bin/bash usu_sininformacion
+#Crear Grupos
+administrador@alcoy:/home$ sudo groupadd gru_sininformacion
+administrador@alcoy:/home$ sudo groupadd gru_desarrollo
+administrador@alcoy:/home$ sudo groupadd gru_explotacion
+administrador@alcoy:/home$ sudo groupadd gru_proye_r
+administrador@alcoy:/home$ sudo groupadd gru_proye_w
+administrador@alcoy:/home$ sudo groupadd gru_proye_x
+administrador@alcoy:/home$ sudo groupadd gru_prue_r
+administrador@alcoy:/home$ sudo groupadd gru_prue_w
+administrador@alcoy:/home$ sudo groupadd gru_prue_x
+administrador@alcoy:/home$ sudo groupadd gru_src_r
+administrador@alcoy:/home$ sudo groupadd gru_src_w
+administrador@alcoy:/home$ sudo groupadd gru_src_x
