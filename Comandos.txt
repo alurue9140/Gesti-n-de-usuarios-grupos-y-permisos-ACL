@@ -6,7 +6,7 @@ administrador@alcoy:/home$ sudo useradd -d /home/usu_sininformacion -m -s /bin/b
 #Asignar contraseña
 administrador@alcoy:/proyectos$ sudo passwd usu_explotacion
 administrador@alcoy:/proyectos$ sudo passwd usu_desarrollo 
-administrador@alcoy:/proyectos$ sudo passwd usu_sinformacion 
+administrador@alcoy:/proyectos$ sudo passwd usu_siniformacion 
 #Crear Grupos
 administrador@alcoy:/home$ sudo groupadd gru_sininformacion
 administrador@alcoy:/home$ sudo groupadd gru_desarrollo
