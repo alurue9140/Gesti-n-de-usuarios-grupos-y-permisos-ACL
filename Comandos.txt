@@ -11,3 +11,10 @@ administrador@alcoy:/proyectos$ sudo passwd usu_sinformacion
 administrador@alcoy:/home$ sudo groupadd gru_sininformacion
 administrador@alcoy:/home$ sudo groupadd gru_desarrollo
 administrador@alcoy:/home$ sudo groupadd gru_explotacion
+#Eliminar permiso others
+administrador@alcoy:/$ sudo setfacl -R -d -m other:0 proyectos
+administrador@alcoy:/$ sudo setfacl -R -d -m other:0 /proyectos/pruebas
+administrador@alcoy:/$ sudo setfacl -R -d -m other:0 /proyectos/src
+administrador@alcoy:/$ sudo setfacl -R -m other:0 /proyectos
+administrador@alcoy:/$ sudo setfacl -R -m other:0 /proyectos/pruebas
+administrador@alcoy:/$ sudo setfacl -R -m other:0 /proyectos/src
